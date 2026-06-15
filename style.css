@@ -875,7 +875,7 @@ img { display: block; max-width: 100%; }
   overflow: hidden;
 }
 .cta-inner::before {
-  content: 'WEB';
+  content: 'AI';
   position: absolute;
   right: -20px; bottom: -40px;
   font-family: var(--font-display);
