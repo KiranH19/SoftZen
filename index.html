@@ -1,498 +1,609 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>SoftZen Technologies — Building the future with Software, AI & Digital Innovation</title>
-  <link rel="stylesheet" href="style.css"/>
-  <link rel="preconnect" href="https://fonts.googleapis.com"/>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Familjen+Grotesk:ital,wght@0,400;0,500;0,600;0,700;1,400&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>SoftZen Technologies — Software, AI & Digital Innovation Agency</title>
+<meta name="description" content="SoftZen Technologies builds scalable software, intelligent AI solutions, and growth-driven digital marketing strategies. Trusted by startups and enterprises worldwide."/>
+<meta name="keywords" content="software development, AI solutions, digital marketing, business automation, UI/UX design, cloud services, SoftZen Technologies"/>
+<meta property="og:title" content="SoftZen Technologies — Building Smart Digital Solutions"/>
+<meta property="og:description" content="We build scalable software, intelligent AI solutions, and growth-driven digital marketing strategies that help businesses accelerate success."/>
+<meta property="og:type" content="website"/>
+<meta property="og:url" content="https://softzen.tech"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://softzen.tech"/>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SoftZen Technologies",
+  "url": "https://softzen.tech",
+  "description": "Technology agency providing Software Development, AI Solutions, Digital Marketing, Business Automation, UI/UX Design, and Cloud Services.",
+  "founder": { "@type": "Person", "name": "Kiran H" },
+  "areaServed": "Worldwide",
+  "serviceType": ["Software Development", "AI Solutions", "Digital Marketing", "Business Automation", "UI/UX Design", "Cloud Services"]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 
-<!-- NOISE OVERLAY -->
+<a href="#main" class="skip-link">Skip to content</a>
+<div class="bg-mesh" aria-hidden="true"></div>
 <div class="noise" aria-hidden="true"></div>
 
-<!-- GRID LINES -->
-<div class="grid-lines" aria-hidden="true">
-  <span></span><span></span><span></span><span></span><span></span>
-</div>
-
-<!-- ══════════════════════════════
-     NAVBAR
-══════════════════════════════ -->
+<!-- ══════════════ NAV ══════════════ -->
 <header class="nav" id="nav">
   <div class="nav__inner">
-    <a href="#" class="nav__logo">
-      <span class="logo-bracket">[</span>SOFTZEN Technologies<span class="logo-bracket">]</span>
-    </a>
-    <nav class="nav__links" id="navLinks">
-      <a href="#services" data-num="01">Services</a>
-      <a href="#about" data-num="02">About</a>
-      <a href="#process" data-num="03">Process</a>
-      <a href="#work" data-num="04">Clients</a>
-      <a href="#contact" class="nav__cta">Start a Project →</a>
+    <a href="#home" class="nav__logo">SoftZen<span class="dot">.</span></a>
+    <nav class="nav__links" id="navLinks" aria-label="Main navigation">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#industries">Industries</a>
+      <a href="#contact" class="nav__cta">Book a call →</a>
     </nav>
     <div class="nav__right">
-      <button class="theme-btn" id="themeToggle" aria-label="toggle theme">
-        <span class="t-light">◐ LIGHT</span>
-        <span class="t-dark">◑ DARK</span>
+      <button class="theme-btn" id="themeToggle" aria-label="Toggle theme">
+        <span class="t-light">☀️</span>
+        <span class="t-dark">🌙</span>
       </button>
-      <button class="burger" id="burger" aria-label="menu">
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false">
         <span></span><span></span>
       </button>
     </div>
   </div>
 </header>
 
-<!-- ══════════════════════════════
-     HERO
-══════════════════════════════ -->
+<main id="main">
+<!-- ══════════════ HERO ══════════════ -->
 <section class="hero" id="home">
-  <div class="hero__ticker" aria-hidden="true">
-    <div class="ticker__track">
-      <span>WEBSITE DEVELOPMENT</span><span class="tick-sep">•</span>
-      <span>AI CHATBOTS</span><span class="tick-sep">•</span>
-      <span>APP DEVELOPMENT</span><span class="tick-sep">•</span>
-      <span>AI AUTOMATION</span><span class="tick-sep">•</span>
-      <span>CUSTOM SOFTWARE (SAAS) </span><span class="tick-sep">•</span>
-      <span>AI RECEPTIONISTS</span><span class="tick-sep">•</span>
-      <span>AI AGENTS</span><span class="tick-sep">•</span>
-      <span>WEBSITE DEVELOPMENT</span><span class="tick-sep">•</span>
-      <span>AI CHATBOTS</span><span class="tick-sep">•</span>
-      <span>APP DEVELOPMENT</span><span class="tick-sep">•</span>
-      <span>AI AUTOMATION</span><span class="tick-sep">•</span>
-      <span>CUSTOM SOFTWARE (SAAS) </span><span class="tick-sep">•</span>
-      <span>AI RECEPTIONISTS</span><span class="tick-sep">•</span>
-      <span>AI AGENTS</span><span class="tick-sep">•</span>
-    </div>
-  </div>
-
-  <div class="hero__body container">
+  <div class="container hero__grid">
     <div class="hero__left">
-      <div class="hero__tag fade-up">
+      <div class="hero__tag reveal">
         <span class="pulse-dot"></span>
-        <code>EST. 2026 &nbsp;·&nbsp; AI-FIRST AGENCY</code>
+        Dharwad, Karnataka, India 
       </div>
-      <h1 class="hero__h1 fade-up" data-delay="80">
-        EMPOWERING<br/>
-        <em>LOCAL </em><br/>
-        BUSINESSES<br/>
-        <span class="hero__sub-line">with Smart Software, AI &amp; Digital Innovation</span>
+      <h1 class="hero__h1 reveal" data-delay="80">
+        Transforming <br>
+         <span class="grad">Businesses</span> <br> with Software, <br> AI and Digital Solutions
       </h1>
-      <p class="hero__desc fade-up" data-delay="180">
-        We build websites, apps, intelligent automation systems and Digital Strategies that help your business grow faster and operate smarter — without the tech overwhelm.
+      <p class="hero__desc reveal" data-delay="160">
+        SoftZen Technologies builds scalable software, intelligent AI solutions, and growth-driven digital marketing strategies that help startups, SMBs, and enterprises accelerate success worldwide.
       </p>
-      <div class="hero__ctas fade-up" data-delay="260">
-        <a href="#contact" class="btn-gold">Get Started</a>
-        <a href="#contact" class="btn-outline">Book Free Consultation</a>
+      <div class="hero__ctas reveal" data-delay="240">
+        <a href="#contact" class="btn btn-primary btn-lg">Book Free Consultation</a>
+        <a href="#services" class="btn btn-outline btn-lg">View Services →</a>
+      </div>
+      <br>
+      <div class="hero__trust reveal" data-delay="320">
+        <div class="trust-stat">
+          <span class="trust-stat__n"><span class="num" data-target="5">0</span><span class="suf">+</span></span>
+          <p>Clients Served</p>
+        </div>
+        <div class="trust-stat">
+          <span class="trust-stat__n"><span class="num" data-target="10">0</span><span class="suf">+</span></span>
+          <p>Projects Delivered</p>
+        </div>
+        <div class="trust-stat">
+          <span class="trust-stat__n"><span class="num" data-target="100">0</span><span class="suf">%</span></span>
+          <p>Client Satisfaction</p>
+        </div>
       </div>
     </div>
 
-    <div class="hero__right fade-up" data-delay="120">
+    <div class="hero__right reveal" data-delay="200">
       <div class="hero__visual">
-        <canvas id="heroCanvas"></canvas>
-        <div class="visual__overlay">
-          <div class="vstat">
-            <span class="vstat__n" data-target="10">0</span><span class="vstat__suf">+</span>
-            <p>Projects Delivered</p>
+        <div class="hv-blob" aria-hidden="true"></div>
+        <div class="hv-blob v2" aria-hidden="true"></div>
+        <div class="hv-float f1"><span class="ico">⚡</span> Live build</div>
+        <div class="hv-float f2"><span class="ico">🤝</span> 100% satisfaction</div>
+        <div class="hv-card">
+          <div class="hv-card__head">
+            <span>SOFTZEN · DELIVERY STACK</span>
+            <div class="hv-dots"><i></i><i></i><i></i></div>
           </div>
-          <div class="vstat__divider"></div>
-          <div class="vstat">
-            <span class="vstat__n" data-target="98">0</span><span class="vstat__suf">%</span>
-            <p>Client Satisfaction</p>
+          <div class="hv-row">
+            <div class="hv-row__icon gold">💻</div>
+            <div class="hv-row__body"><strong>Software Development</strong><span>Web apps · ERP · APIs</span></div>
+            <div class="hv-row__bar"><i style="width:92%"></i></div>
           </div>
-          <div class="vstat__divider"></div>
-          <div class="vstat">
-            <span class="vstat__n" data-target="40">0</span><span class="vstat__suf">%</span>
-            <p>Avg. Time Saved</p>
+          <div class="hv-row">
+            <div class="hv-row__icon violet">🤖</div>
+            <div class="hv-row__body"><strong>AI & Automation</strong><span>Agents · RAG · chatbots</span></div>
+            <div class="hv-row__bar"><i style="width:78%"></i></div>
+          </div>
+          <div class="hv-row">
+            <div class="hv-row__icon blue">📈</div>
+            <div class="hv-row__body"><strong>Digital Marketing</strong><span>SEO · Ads · funnels</span></div>
+            <div class="hv-row__bar"><i style="width:85%"></i></div>
           </div>
         </div>
       </div>
     </div>
   </div>
-
-  <div class="hero__scroll">
-    <span class="scroll-label">SCROLL</span>
-    <div class="scroll-bar"><span></span></div>
-  </div>
 </section>
 
-<!-- ══════════════════════════════
-     SERVICES
-══════════════════════════════ -->
-<!-- ══════════════════════════════
-     SERVICES
-══════════════════════════════ -->
+<!-- ══════════════ SERVICES ══════════════ -->
 <section class="services" id="services">
   <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 01</code>
-      <h2 class="sec-title">WHAT<br/><em>WE BUILD</em></h2>
-      <p class="sec-desc">Every service is engineered to make your business run smoother and scale faster — no fluff, just results.</p>
+    <div class="sec-head center reveal">
+      <span class="eyebrow">What we build</span>
+      <h2 class="sec-title">Three pillars. One measurable advantage.</h2>
+      <p class="sec-desc">Each engineered to give your business a real competitive edge in the digital era.</p>
     </div>
 
     <div class="svc-grid">
 
-      <article class="svc-card fade-up" data-delay="0">
-        <div class="svc-num">01</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="10" width="40" height="28" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 18h40" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="14" r="1.5" fill="currentColor"/><circle cx="15" cy="14" r="1.5" fill="currentColor"/><circle cx="20" cy="14" r="1.5" fill="currentColor"/><path d="M14 28l6-6 4 4 6-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </div>
-        <h3>Web Development</h3>
-        <p>Fast, conversion-optimised websites built for search engines and real humans alike.</p>
-        <div class="svc-tags"><span>SEO</span><span>Performance</span><span>CRO</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card fade-up" data-delay="60">
-        <div class="svc-num">02</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><rect x="14" y="4" width="20" height="40" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M14 12h20M14 36h20" stroke="currentColor" stroke-width="1.5"/><circle cx="24" cy="40" r="1.5" fill="currentColor"/></svg>
-        </div>
-        <h3>App Development</h3>
-        <p>iOS and Android apps users love — lean, fast, built to scale with your growth.</p>
-        <div class="svc-tags"><span>iOS</span><span>Android</span><span>React Native</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card fade-up" data-delay="120">
-        <div class="svc-num">03</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><path d="M8 16l8-8 8 8-8 8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M24 16l8-8 8 8-8 8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M16 32l8-8 8 8-8 8z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
-        </div>
-        <h3>Custom Software</h3>
-        <p>Bespoke tools that fit exactly how your team works — replace spreadsheets, connect systems.</p>
-        <div class="svc-tags"><span>SaaS</span><span>Integration</span><span>Workflow</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card fade-up" data-delay="0">
-        <div class="svc-num">04</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="14" stroke="currentColor" stroke-width="1.5"/><path d="M18 24c0-3.3 2.7-6 6-6s6 2.7 6 6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="28" r="2.5" fill="currentColor"/><path d="M8 14l4 4M40 14l-4 4M8 34l4-4M40 34l-4-4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <h3>AI Chatbots</h3>
-        <p>24/7 intelligent assistants that capture leads, answer questions, and delight customers.</p>
-        <div class="svc-tags"><span>Support</span><span>Lead Gen</span><span>24/7</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card fade-up" data-delay="60">
-        <div class="svc-num">05</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><rect x="6" y="6" width="36" height="36" rx="18" stroke="currentColor" stroke-width="1.5"/><path d="M16 24h2M22 24h2M28 24h2" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M24 16v-6M29 17l4-4M31 24h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <h3>AI Receptionists</h3>
-        <p>Never miss a call. Book appointments, handle FAQs, route requests — automatically.</p>
-        <div class="svc-tags"><span>Voice</span><span>Booking</span><span>Routing</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card fade-up" data-delay="120">
-        <div class="svc-num">06</div>
-        <div class="svc-icon">
-          <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="10" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="36" r="5" stroke="currentColor" stroke-width="1.5"/><circle cx="38" cy="36" r="5" stroke="currentColor" stroke-width="1.5"/><path d="M21 14l-8 18M27 14l8 18M15 36h18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-        </div>
-        <h3>AI Agents</h3>
-        <p>Autonomous AI that thinks and executes — research, writing, data analysis, end-to-end.</p>
-        <div class="svc-tags"><span>Autonomous</span><span>Multi-step</span><span>Smart</span></div>
-        <div class="svc-arrow">→</div>
-      </article>
-
-      <article class="svc-card svc-card--wide fade-up" data-delay="0">
-        <div class="svc-num">07</div>
-        <div class="svc-wide-inner">
-          <div class="svc-icon svc-icon--lg">
-            <svg viewBox="0 0 48 48" fill="none"><path d="M6 24c0-9.9 8.1-18 18-18s18 8.1 18 18-8.1 18-18 18" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="M6 24h8l5-10 5 20 5-14 3 4h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <article class="svc-card reveal" data-delay="0">
+        <div class="svc-card__top">
+          <div class="svc-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><rect x="4" y="10" width="40" height="28" rx="2" stroke="currentColor" stroke-width="1.5"/><path d="M4 18h40" stroke="currentColor" stroke-width="1.5"/><circle cx="10" cy="14" r="1.5" fill="currentColor"/><circle cx="15" cy="14" r="1.5" fill="currentColor"/><circle cx="20" cy="14" r="1.5" fill="currentColor"/><path d="M16 26l-4 4 4 4M32 26l4 4-4 4M22 34l4-10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
-          <div class="svc-wide-text">
-            <h3>AI Automations</h3>
-            <p>Connect your apps. Eliminate repetitive work. Intelligent workflows handle invoicing, follow-ups, data sync — automatically, around the clock.</p>
-            <div class="svc-tags"><span>Zapier</span><span>Make</span><span>Custom APIs</span><span>No-code + AI</span></div>
-          </div>
+          <span class="svc-card__tag">01 · BUILD</span>
         </div>
-        <div class="svc-arrow">→</div>
+        <h3 class="svc-card__title">Software Development</h3>
+        <p class="svc-card__desc">From MVPs to enterprise platforms — we build software that performs, scales, and solves real business problems.</p>
+        <ul class="svc-sub">
+          <li><span class="svc-sub__dot"></span><div><strong>Website Development</strong><p>Blazing-fast, responsive websites for businesses of every size — from local brands to global enterprises.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Custom Software</strong><p>Full-stack web apps, SaaS platforms, and internal business tools built with modern frameworks and clean architecture.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>UI/UX Design & Prototyping</strong><p>User research, wireframes, Figma prototypes, and pixel-perfect interfaces that convert visitors into customers.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>App Development </strong><p>Custom Android, iOS, and cross-platform mobile applications with intuitive user experiences, scalable architecture, and seamless integrations that help businesses grow and operate smarter.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>ERP & CRM Systems</strong><p>Custom enterprise resource planning and CRM solutions tailored to your workflows — not the other way around.</p></div></li>
       </article>
 
-    </div>
-  </div>
-</section> 
-<!-- ══════════════════════════════
-     ABOUT
-══════════════════════════════ -->
-<section class="about" id="about">
-  <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 02</code>
-      <h2 class="sec-title">THE<br/><em>TEAM</em></h2>
-    </div>
-
-    <div class="founders-grid">
-      <div class="founder fade-up" data-delay="0">
-        <div class="founder__num">A</div>
-        <div class="founder__body">
-          <span class="founder__role">FOUNDER &amp; TECHNICAL LEAD</span>
-          <h3>KIRAN H </h3>
-          <p>Kiran architects the Software and AI systems, builds scalable backends, and ensures every product we ship is production-ready and future-proof.</p>
-          <div class="founder__chips">
-            <span>AI Systems</span><span>Full-Stack</span><span>Product Architecture</span><span>DevOps</span>
+      <article class="svc-card ai reveal" data-delay="80">
+        <div class="svc-card__top">
+          <div class="svc-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="10" stroke="currentColor" stroke-width="1.5"/><path d="M24 14V8M24 34v6M14 24H8M34 24h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="24" r="3" fill="currentColor"/><path d="M16.9 16.9l-4.2-4.2M35.3 16.9l4.2-4.2M16.9 31.1l-4.2 4.2M35.3 31.1l4.2 4.2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
           </div>
+          <span class="svc-card__tag">02 · AUTOMATE</span>
         </div>
-      </div>
+        <h3 class="svc-card__title">AI & Automation</h3>
+        <p class="svc-card__desc">Intelligent systems that work 24/7 — automating decisions, eliminating repetitive tasks, and unlocking new capabilities.</p>
+        <ul class="svc-sub">
+          <li><span class="svc-sub__dot"></span><div><strong>AI Chatbots & Virtual Assistants</strong><p>GPT-powered chatbots trained on your data to handle customer support, lead qualification, and appointment booking around the clock.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>AI Agents & RAG Systems</strong><p>Autonomous agents and retrieval-augmented generation systems that reason over your documents, databases, and knowledge bases.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Business Process Automation</strong><p>CRM workflows, WhatsApp sequences, email automation, and internal process bots that eliminate manual, repetitive work entirely.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Predictive Analytics & Dashboards</strong><p>AI-powered forecasting, custom analytics dashboards, and intelligent reporting that turns your data into actionable decisions.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Document Intelligence & OCR</strong><p>Automated data extraction from invoices, forms, and documents — feeding directly into your business systems without manual entry.</p></div></li>
+      </article>
 
-      <div class="founder founder--alt fade-up" data-delay="140">
-        <div class="founder__num">M</div>
-        <div class="founder__body">
-          <span class="founder__role">CO-FOUNDER &amp; MARKETING LEAD</span>
-          <h3>AKASH L</h3>
-          <p>Akash bridges strategy and results. He works directly with clients to map growth roadmaps and ensures our solutions create measurable outcomes — not just impressive demos.</p>
-          <div class="founder__chips">
-            <span>Growth Strategy</span><span>Client Success</span><span>Go-to-Market</span><span>Brand</span>
+      <article class="svc-card mkt reveal" data-delay="160">
+        <div class="svc-card__top">
+          <div class="svc-card__icon">
+            <svg viewBox="0 0 48 48" fill="none"><path d="M8 36l10-12 8 8 6-10 8 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="14" r="6" stroke="currentColor" stroke-width="1.5"/><path d="M36 14h4M38 12v4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
           </div>
+          <span class="svc-card__tag">03 · GROW</span>
         </div>
-      </div>
+        <h3 class="svc-card__title">Digital Marketing</h3>
+        <p class="svc-card__desc">Growth-driven marketing strategies that put your brand in front of the right audience, at the right time, on the right platform.</p>
+        <ul class="svc-sub">
+          <li><span class="svc-sub__dot"></span><div><strong>SEO & Content Marketing</strong><p>Keyword research, on-page optimisation, technical SEO audits, and content strategies that build long-term organic visibility.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Google Ads & PPC Campaigns</strong><p>High-ROI paid search campaigns, shopping ads, and retargeting flows engineered to maximise conversions while minimising ad spend.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Social Media Marketing</strong><p>Instagram, Facebook, and LinkedIn strategy — content calendars, reels, paid social campaigns, and community management that builds real brand equity.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Lead Generation & Funnels</strong><p>Full-funnel acquisition systems combining landing pages, lead magnets, email sequences, and CRM automation to turn traffic into revenue.</p></div></li>
+          <li><span class="svc-sub__dot"></span><div><strong>Analytics & Performance Reporting</strong><p>Google Analytics 4, custom dashboards, conversion tracking, and monthly performance reviews that show exactly where your growth is coming from.</p></div></li>
+       </article>  
+
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════
-     MISSION STRIP
-══════════════════════════════ -->
-<div class="mission-strip" aria-label="Our mission">
-  <div class="strip__track">
-    <span>OUR MISSION</span><span class="strip-sep">✦</span>
-    <em>Empower local businesses with powerful, affordable software, AI and Digital Marketing that simplifies operations and unlocks growth.</em>
-    <span class="strip-sep">✦</span><span>OUR MISSION</span><span class="strip-sep">✦</span>
-    <em>Empower local businesses with powerful, affordable software, AI and Digital Marketing that simplifies operations and unlocks growth.</em>
-    <span class="strip-sep">✦</span><span>OUR MISSION</span><span class="strip-sep">✦</span>
-    <em>Empower local businesses with powerful, affordable software, AI and Digital Marketing that simplifies operations and unlocks growth.</em>
-    <span class="strip-sep">✦</span>
-  </div>
-</div>
-
-<!-- ══════════════════════════════
-     WHY
-══════════════════════════════ -->
+<!-- ══════════════ WHY US ══════════════ -->
 <section class="why" id="why">
   <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 03</code>
-      <h2 class="sec-title">BUILT<br/><em>DIFFERENT</em></h2>
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Why SoftZen</span>
+      <h2 class="sec-title">Six reasons founders choose us twice.</h2>
     </div>
-    <div class="why-list">
-      <div class="why-item fade-up" data-delay="0">
-        <span class="why-n">01</span>
-        <div class="why-div"></div>
-        <div class="why-body"><h4>Tailored, Not Templated</h4><p>Every solution is crafted around your specific business — not copy-pasted from a template.</p></div>
+    <div class="why-grid">
+      <div class="why-card reveal" data-delay="0">
+        <div class="why-n">01</div>
+        <div class="why-body"><h4>AI-First Engineering</h4><p>Every solution we build considers how AI can reduce friction, automate decisions, and amplify human capability — not as an afterthought but as a core architecture principle.</p></div>
       </div>
-      <div class="why-item fade-up" data-delay="70">
-        <span class="why-n">02</span>
-        <div class="why-div"></div>
-        <div class="why-body"><h4>Fast Delivery</h4><p>We move quickly without cutting corners. Most projects go from brief to live in weeks, not months.</p></div>
+      <div class="why-card reveal" data-delay="60">
+        <div class="why-n">02</div>
+        <div class="why-body"><h4>Full-Spectrum Delivery</h4><p>From strategy and design through development, deployment, and marketing — one team handles everything so you never lose context between agencies.</p></div>
       </div>
-      <div class="why-item fade-up" data-delay="140">
-        <span class="why-n">03</span>
-        <div class="why-div"></div>
-        <div class="why-body"><h4>AI-First Thinking</h4><p>We don't bolt on AI as an afterthought — it's baked into every layer of what we build.</p></div>
+      <div class="why-card reveal" data-delay="120">
+        <div class="why-n">03</div>
+        <div class="why-body"><h4>Startup Speed, Enterprise Quality</h4><p>We move fast without cutting corners. Clean code, documented APIs, and CI/CD pipelines mean your product is maintainable and scalable from the first commit.</p></div>
       </div>
-      <div class="why-item fade-up" data-delay="210">
-        <span class="why-n">04</span>
-        <div class="why-div"></div>
-        <div class="why-body"><h4>Real Business Results</h4><p>We measure success by your outcomes — leads, time saved, revenue grown. Not just code shipped.</p></div>
+      <div class="why-card reveal" data-delay="0">
+        <div class="why-n">04</div>
+        <div class="why-body"><h4>Transparent, Fixed-Fee Pricing</h4><p>No hidden retainers or scope creep surprises. Clear deliverables, clear timelines, and clear pricing — so you can plan your budget with confidence.</p></div>
       </div>
-      <div class="why-item fade-up" data-delay="280">
-        <span class="why-n">05</span>
-        <div class="why-div"></div>
-        <div class="why-body"><h4>Ongoing Support</h4><p>We're your long-term tech partner. After launch, we're still with you to iterate and scale.</p></div>
+      <div class="why-card reveal" data-delay="60">
+        <div class="why-n">05</div>
+        <div class="why-body"><h4>Founder-Led Accountability</h4><p>You work directly with the founder, not a rotating cast of account managers. Every project receives senior-level attention from kickoff through launch.</p></div>
       </div>
-    </div>
-  </div>
-</section>
-
-<!-- ══════════════════════════════
-     PROCESS
-══════════════════════════════ -->
-<section class="process" id="process">
-  <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 04</code>
-      <h2 class="sec-title">FROM IDEA<br/><em>TO IMPACT</em></h2>
-      <p class="sec-desc">A clear, jargon-free path from brief to live product.</p>
-    </div>
-    <div class="process-row">
-      <div class="pstep fade-up" data-delay="0">
-        <div class="pstep__n">01</div>
-        <div class="pstep__line"></div>
-        <div class="pstep__body"><h4>DISCOVER</h4><p>We listen deeply — goals, pain points, and what success looks like for your business.</p></div>
-      </div>
-      <div class="pstep fade-up" data-delay="100">
-        <div class="pstep__n">02</div>
-        <div class="pstep__line"></div>
-        <div class="pstep__body"><h4>PLAN</h4><p>A clear roadmap — what we'll build, why, how it creates value. No surprises.</p></div>
-      </div>
-      <div class="pstep fade-up" data-delay="200">
-        <div class="pstep__n">03</div>
-        <div class="pstep__line"></div>
-        <div class="pstep__body"><h4>BUILD</h4><p>Speed and precision — you're kept in the loop every step of the way.</p></div>
-      </div>
-      <div class="pstep pstep--last fade-up" data-delay="300">
-        <div class="pstep__n">04</div>
-        <div class="pstep__body"><h4>LAUNCH &amp; SCALE</h4><p>We ship, measure results, and keep improving — the best products evolve.</p></div>
+      <div class="why-card reveal" data-delay="120">
+        <div class="why-n">06</div>
+        <div class="why-body"><h4>Results, Not Deliverables</h4><p>We measure success in business outcomes — leads generated, revenue increased, costs reduced — not just pixels delivered and code pushed.</p></div>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════
-     TESTIMONIALS
-══════════════════════════════ -->
-<section class="testimonials" id="work">
+<!-- ══════════════ ABOUT ══════════════ -->
+<section class="about" id="about">
   <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 05</code>
-      <h2 class="sec-title">CLIENT<br/><em>STORIES</em></h2>
+    <div class="sec-head reveal">
+      <span class="eyebrow">Built by builders</span>
+      <h2 class="sec-title">A technology partner, not a vendor.</h2>
+    </div>
+    <div class="about-layout">
+      <div class="about-copy reveal">
+        <p class="about-lead">SoftZen Technologies was founded with a vision to transform businesses through technology. We help organizations leverage software, AI, automation, and digital solutions to streamline operations, enhance customer experiences, and unlock new growth opportunities.</p>
+        <p>We are a technology agency headquartered in Dharwad, Karnataka, operating globally. Our team combines deep engineering expertise with a product mindset — we don't just write code, we solve problems that matter to your customers and your bottom line.</p>
+        <p>Whether you're a founder validating your first idea or an enterprise modernising legacy systems, we architect solutions that scale with your ambition.</p>
+        <div class="about-values">
+          <div class="aval"><span class="aval__dot"></span><span>Innovation</span></div>
+          <div class="aval"><span class="aval__dot"></span><span>Excellence</span></div>
+          <div class="aval"><span class="aval__dot"></span><span>Transparency</span></div>
+          <div class="aval"><span class="aval__dot"></span><span>Customer Success</span></div>
+          <div class="aval"><span class="aval__dot"></span><span>Continuous Learning</span></div>
+        </div>
+        <div class="about-mv">
+          <div class="mv-block">
+            <span class="mv-label">MISSION</span>
+            <p>Empowering businesses with innovative technology solutions that drive growth, efficiency, and competitive advantage.</p>
+          </div>
+          <div class="mv-block">
+            <span class="mv-label">VISION</span>
+            <p>To become a globally trusted technology partner helping organisations leverage software and AI to unlock their full potential.</p>
+          </div>
+        </div>
+      </div>
+      <div class="founder-card reveal" data-delay="100">
+        <div class="founder-top">
+          <div class="founder-photo">
+            <img id="founderPhoto" src="kiran.png" alt="Kiran H — Founder & CEO, SoftZen Technologies" loading="lazy"
+              onerror="this.style.display='none'; this.parentElement.textContent='KH';"/>
+          </div>
+          <div class="founder-info">
+            <h3>Kiran H</h3>
+            <span class="role">FOUNDER & CEO</span>
+          </div>
+        </div>
+        <p class="founder-bio">Final-year Electronics & Communication Engineering student at KLE Institute of Technology, Hubballi — and the founder driving SoftZen Technologies from an idea into a global-facing technology agency.</p>
+        <p class="founder-bio">Kiran combines hands-on software engineering expertise with a deep interest in artificial intelligence, having built full-stack web applications, AI-powered tools, and client solutions across multiple industries.</p>
+        <p class="founder-bio">His belief: the most powerful competitive advantage any business can have in 2026 is the intelligent use of software and AI — and that advantage should be accessible to every founder and team, not just the Fortune 500.</p>
+        <div class="founder-tags">
+          <span>Full-Stack Development</span><span>AI & LLMs</span><span>Entrepreneurship</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ INDUSTRIES ══════════════ -->
+<section class="industries" id="industries">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Industries we serve</span>
+      <h2 class="sec-title">Domain knowledge across eight verticals.</h2>
+      <p class="sec-desc">We understand your market, your customers, and your constraints before we write a single line of code.</p>
+    </div>
+    <div class="ind-grid">
+      <div class="ind-card reveal" data-delay="0"><div class="ind-icon">⚕️</div><h4>Healthcare</h4><p>Patient portals, telemedicine platforms, appointment systems, and HIPAA-compliant data management tools.</p></div>
+      <div class="ind-card reveal" data-delay="40"><div class="ind-icon">🎓</div><h4>EdTech</h4><p>LMS platforms, adaptive learning systems, gamified education apps, and AI-powered tutoring solutions.</p></div>
+      <div class="ind-card reveal" data-delay="80"><div class="ind-icon">💳</div><h4>FinTech</h4><p>Payment gateways, expense trackers, investment dashboards, and secure financial data platforms.</p></div>
+      <div class="ind-card reveal" data-delay="120"><div class="ind-icon">🛒</div><h4>E-Commerce</h4><p>Custom storefronts, inventory management, product recommendation engines, and abandoned cart automation.</p></div>
+      <div class="ind-card reveal" data-delay="0"><div class="ind-icon">🏘</div><h4>Real Estate</h4><p>Property listing platforms, CRM integrations, virtual tour tools, and lead capture funnels.</p></div>
+      <div class="ind-card reveal" data-delay="40"><div class="ind-icon">🏭</div><h4>Manufacturing</h4><p>ERP integrations, supply chain dashboards, quality control automation, and IoT data visualisation.</p></div>
+      <div class="ind-card reveal" data-delay="80"><div class="ind-icon">🍽</div><h4>Hospitality</h4><p>Booking engines, table management systems, loyalty programmes, and digital menu experiences.</p></div>
+      <div class="ind-card reveal" data-delay="120"><div class="ind-icon">⚡</div><h4>SaaS & Startups</h4><p>MVPs, product iterations, growth infrastructure, onboarding flows, and full-product engineering partnerships.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ TECH STACK ══════════════ -->
+ <!-- 
+<section class="techstack" id="stack">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Technology stack</span>
+      <h2 class="sec-title">Modern tools. Proven reliability.</h2>
+    </div>
+    <div class="stack-grid">
+      <div class="stack-card reveal"><span class="stack-label">FRONTEND</span><div class="stack-pills"><span>React</span><span>Next.js</span><span>TypeScript</span><span>Tailwind</span><span>Vue.js</span></div></div>
+      <div class="stack-card reveal" data-delay="60"><span class="stack-label">BACKEND</span><div class="stack-pills"><span>Node.js</span><span>Python</span><span>FastAPI</span><span>Django</span><span>Express</span></div></div>
+      <div class="stack-card reveal" data-delay="120"><span class="stack-label">AI / ML</span><div class="stack-pills"><span>OpenAI</span><span>LangChain</span><span>Hugging Face</span><span>TensorFlow</span><span>RAG</span></div></div>
+      <div class="stack-card reveal" data-delay="0"><span class="stack-label">CLOUD</span><div class="stack-pills"><span>AWS</span><span>GCP</span><span>Azure</span><span>Vercel</span><span>Docker</span></div></div>
+      <div class="stack-card reveal" data-delay="60"><span class="stack-label">DATABASE</span><div class="stack-pills"><span>PostgreSQL</span><span>MongoDB</span><span>Supabase</span><span>Redis</span><span>Pinecone</span></div></div>
+      <div class="stack-card reveal" data-delay="120"><span class="stack-label">MARKETING</span><div class="stack-pills"><span>Google Ads</span><span>Meta Ads</span><span>Semrush</span><span>HubSpot</span><span>Mailchimp</span></div></div>
+    </div>
+  </div>
+</section>
+-->
+
+<!-- ══════════════ PORTFOLIO ══════════════ -->
+<section class="portfolio" id="portfolio">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Client work</span>
+      <h2 class="sec-title">Real projects. Real results.</h2>
+      <p class="sec-desc">Every case study below represents a business that trusted us to solve a meaningful problem.</p>
+    </div>
+    <div class="port-grid">
+
+      <article class="port-card reveal" data-delay="0">
+        <div class="port-img port-img--01"><span class="port-industry">Healthcare</span></div>
+        <div class="port-body">
+          <h3>Health Care Diagnostic Laboratory</h3>
+          <p><strong>Challenge:</strong> A leading diagnostic centre in Dharwad lacked a professional digital presence — patients couldn't find their services online and had no way to book appointments digitally.</p>
+          <p><strong>Solution:</strong> Built a fully responsive multi-page website with branded Kannada-language content, service listings, lab test catalogue, and contact/appointment integration.</p>
+          <div class="port-tags"><span>HTML/CSS</span><span>JavaScript</span><span>Responsive</span><span>SEO</span></div>
+          <div class="port-result">↑ Digital presence established — online enquiries enabled</div>
+        </div>
+      </article>
+
+      <article class="port-card reveal" data-delay="60">
+        <div class="port-img port-img--02"><span class="port-industry">Education</span></div>
+        <div class="port-body">
+          <h3>Sankalpa Academy Website</h3>
+          <p><strong>Challenge:</strong> A coaching institute needed an online platform to showcase courses, faculty credentials, and success stories to attract new students.</p>
+          <p><strong>Solution:</strong> Designed and developed a performance-optimised academy website with course catalogue, testimonials, faculty section, and a lead capture enquiry form.</p>
+          <div class="port-tags"><span>HTML/CSS</span><span>Supabase</span><span>Admin Dashboard</span><span>Lead Gen</span></div>
+          <div class="port-result">↑ Student enquiries increased post-launch</div>
+        </div>
+      </article>
+
+      <article class="port-card reveal" data-delay="120">
+        <div class="port-img port-img--03"><span class="port-industry">Medical / Dental</span></div>
+        <div class="port-body">
+          <h3>Experts Dental Clinic and Lab</h3>
+          <p><strong>Challenge:</strong> A dental clinic needed a modern digital brand presence with appointment booking to compete with larger multi-city clinics.</p>
+          <p><strong>Solution:</strong> Delivered a premium clinic website with service portfolio, before/after gallery, doctor profile, and integrated WhatsApp appointment flow.</p>
+          <div class="port-tags"><span>HTML/CSS</span><span>JS</span><span>WhatsApp API</span><span>SEO</span></div>
+          <div class="port-result">↑ Appointment requests through WhatsApp up significantly</div>
+        </div>
+      </article>
+
+      <article class="port-card reveal" data-delay="0">
+        <div class="port-img port-img--04"><span class="port-industry">Education / GovTech</span></div>
+        <div class="port-body">
+          <h3>Karnataka High School Website</h3>
+          <p><strong>Challenge:</strong> A state-affiliated high school had no web presence, making it difficult for parents and students to access information about admissions, events, and academic programmes.</p>
+          <p><strong>Solution:</strong> Built a bilingual (Kannada/English) institutional website with notice board, admissions flow, gallery, and staff directory — mobile-first for low-connectivity users.</p>
+          <div class="port-tags"><span>HTML</span><span>CSS</span><span>Bilingual</span><span>Mobile-first</span></div>
+          <div class="port-result">↑ First digital presence — community accessibility improved</div>
+        </div>
+      </article>
+
+      <article class="port-card port-card--cta reveal" data-delay="60">
+        <span class="eyebrow" style="margin-bottom:0">Next case study</span>
+        <h3>Your project, featured here.</h3>
+        <p>We're currently scoping a new SaaS / EdTech engagement. Tell us about your idea and let's start the next case study together.</p>
+        <a href="#contact" class="btn btn-outline">Start a project →</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ TESTIMONIALS ══════════════ -->
+<section class="testimonials" id="testimonials">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Client stories</span>
+      <h2 class="sec-title">Don't take our word for it.</h2>
     </div>
     <div class="test-grid">
-      <div class="tcard fade-up" data-delay="0">
+      <div class="tcard reveal" data-delay="0">
         <div class="tcard__top">
-          <div class="tcard__av" style="--c:#f59e0b">JM</div>
-          <div><strong>Jamie Mitchell</strong><span>Mitchell HVAC Services</span></div>
-          <div class="stars">★★★★★</div>
+          <div class="tcard__av" style="--c:#f5a623">SP</div>
+          <div class="tcard__who"><strong>Dr. Somanagouda Patil</strong><span>Health Care Diagnostic Lab</span></div>
         </div>
-        <p>"SoftZen built us an AI chatbot that handles 70% of customer enquiries automatically. We've saved 20 hours a week and response times are now instant."</p>
-        <div class="tcard__metric"><span>↑ 20 hrs/week saved</span></div>
+        <div class="stars">★★★★★</div>
+        <p>SoftZen built our entire website from scratch, including our branding. Patients are now finding us on Google and calling directly from the site. The investment paid for itself within weeks.</p>
+        <div class="tcard__metric">↑ Online enquiries enabled from zero</div>
       </div>
-      <div class="tcard fade-up" data-delay="80">
+      <div class="tcard reveal" data-delay="80">
         <div class="tcard__top">
-          <div class="tcard__av" style="--c:#10b981">SP</div>
-          <div><strong>Sarah Park</strong><span>Bloom Wellness Clinic</span></div>
-          <div class="stars">★★★★★</div>
+          <div class="tcard__av" style="--c:#34d399">VP</div>
+          <div class="tcard__who"><strong>Vithalgouda Patil</strong><span>Sankalpa Academy</span></div>
         </div>
-        <p>"They rebuilt our booking system with AI automation — appointments, reminders, follow-ups all on autopilot. Revenue is up 35% since launch."</p>
-        <div class="tcard__metric"><span>↑ 35% revenue increase</span></div>
+        <div class="stars">★★★★★</div>
+        <p>We needed a site that made parents trust us before even visiting. SoftZen delivered something that looks premium and loads fast — student enquiries have gone up noticeably since launch.</p>
+        <div class="tcard__metric">↑ Student enquiries increased post-launch</div>
       </div>
-      <div class="tcard fade-up" data-delay="160">
+      <div class="tcard reveal" data-delay="160">
         <div class="tcard__top">
-          <div class="tcard__av" style="--c:#3b82f6">DL</div>
-          <div><strong>David Lee</strong><span>Lee's Property Group</span></div>
-          <div class="stars">★★★★★</div>
+          <div class="tcard__av" style="--c:#5b9dff">DB</div>
+          <div class="tcard__who"><strong>Dr. Basavaraj</strong><span>Experts Dental Clinic and Lab</span></div>
         </div>
-        <p>"I was sceptical about AI but they explained everything in plain English. More leads in 3 months than the entire previous year."</p>
-        <div class="tcard__metric"><span>↑ 3× leads in 90 days</span></div>
-      </div> 
+        <div class="stars">★★★★★</div>
+        <p>The website reflects exactly the kind of premium, trustworthy clinic experience I wanted patients to feel before they even walk in. The WhatsApp booking integration was a game-changer.</p>
+        <div class="tcard__metric">↑ WhatsApp appointments up significantly</div>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════
-     CTA BANNER
-══════════════════════════════ -->
+<!-- ══════════════ FAQ ══════════════ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="sec-head center reveal">
+      <span class="eyebrow">Common questions</span>
+      <h2 class="sec-title">Everything you need to know.</h2>
+    </div>
+    <div class="faq-list">
+      <details class="faq-item reveal">
+        <summary>How long does a typical project take?</summary>
+        <p>Simple websites take 2–3 weeks. Complex web applications or AI integrations typically run 6–12 weeks. We'll give you a detailed timeline in your project scope document before work begins.</p>
+      </details>
+      <details class="faq-item reveal" data-delay="40">
+        <summary>Do you work with international clients?</summary>
+        <p>Absolutely. We work asynchronously with clients across India, the US, UK, and the Middle East. All communication is in English and we adapt to your timezone for live calls.</p>
+      </details>
+      <details class="faq-item reveal" data-delay="80">
+        <summary>What does the AI chatbot integration look like?</summary>
+        <p>We typically build on top of GPT-4 or similar LLMs, trained on your product documentation, FAQs, and policies. The chatbot can handle customer queries, qualify leads, or book appointments — depending on your use case.</p>
+      </details>
+      <details class="faq-item reveal" data-delay="120">
+        <summary>Do you offer ongoing maintenance and support?</summary>
+        <p>Yes. Every package includes post-launch support, and we offer monthly retainer agreements for businesses that need ongoing updates, content, analytics, and feature development.</p>
+      </details>
+      <details class="faq-item reveal" data-delay="160">
+        <summary>Can you redesign an existing website?</summary>
+        <p>Yes — in fact, redesigns are one of our specialities. We audit your current site, identify conversion and performance gaps, and rebuild with measurable improvement goals.</p>
+      </details>
+      <details class="faq-item reveal" data-delay="200">
+        <summary>How do I get started?</summary>
+        <p>Book a free 30-minute discovery call using the form below. We'll review your current situation, discuss your goals, and outline how we'd approach your project — no obligation.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ CTA BANNER ══════════════ -->
 <section class="cta-banner">
   <div class="container">
-    <div class="cta-inner fade-up">
-      <div class="cta-left">
-        <code>READY TO TRANSFORM?</code>
-        <h2>LET'S BUILD<br/><em>SOMETHING</em><br/>GREAT.</h2>
+    <div class="cta-panel reveal">
+      <div class="cta-panel__left">
+        <span class="eyebrow" style="margin-bottom:0">Ready to build something great?</span>
+        <h2>Let's turn <span class="grad">your vision</span> into reality.</h2>
       </div>
-      <div class="cta-right">
-        <p>Book a free 30-minute strategy call. No pressure, no jargon — just a clear conversation about how we can help your business grow.</p>
-        <a href="#contact" class="btn-gold btn-gold--lg">Schedule a Call →</a>
+      <div class="cta-panel__right">
+        <p>Book a free 30-minute strategy call. We'll review your goals, map out a clear technical approach, and tell you exactly what it would take to build it — with no pressure and no commitment.</p>
+        <a href="#contact" class="btn btn-primary btn-lg">Schedule a Free Call →</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ══════════════════════════════
-     CONTACT
-══════════════════════════════ -->
+<!-- ══════════════ CONTACT ══════════════ -->
 <section class="contact" id="contact">
   <div class="container">
-    <div class="sec-header fade-up">
-      <code class="sec-num">// 06</code>
-      <h2 class="sec-title">GET IN<br/><em>TOUCH</em></h2>
+    <div class="sec-head reveal">
+      <span class="eyebrow">Start a project</span>
+      <h2 class="sec-title">Let's build what's next.</h2>
     </div>
     <div class="contact-layout">
-      <div class="contact-info fade-up">
-        <p class="contact-blurb">Whether you have a clear project in mind or just want to explore what's possible — we'd love to hear from you.</p>
+      <div class="contact-info reveal">
+        <p class="contact-blurb">Tell us what you're building. Whether it's a website, a SaaS product, an AI integration, or a full digital transformation — we'll scope it, price it, and deliver it.</p>
         <a href="mailto:hello@softzentech.in" class="contact-email">hello@softzentech.in</a>
-        <div class="contact-loc">
-          <code>LOCATION</code>
-          <span>Hubli-Dharwad,Karnataka,India</span>
+        <div class="contact-meta">
+          <div class="cmeta-row"><code>LOCATION</code><span>Dharwad, Karnataka, India · Remote-first · Clients Worldwide</span></div>
+          <div class="cmeta-row"><code>RESPONSE TIME</code><span>Within 24 hours on business days</span></div>
+        </div>
+        <div class="cta-quick">
+          <a href="https://wa.me/918073588621" class="qbtn" target="_blank" rel="noopener">💬 WhatsApp</a>
+          <a href="tel:+918073588621" class="qbtn">📞 Call</a>
+          <a href="mailto:hello@softzentech.in" class="qbtn">✉️ Email</a>
         </div>
         <div class="socials">
-          <a href="#" class="social-lnk" aria-label="LinkedIn">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>LinkedIn
-          </a>
-          <a href="#" class="social-lnk" aria-label="Twitter">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>Twitter
-          </a>
-          <a href="#" class="social-lnk" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram
-          </a>
+          <a href="#" class="social-lnk" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg></a>
+          <a href="#" class="social-lnk" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="#" class="social-lnk" aria-label="Twitter/X"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
         </div>
       </div>
-      <form class="contact-form fade-up" id="contactForm" data-delay="100">
-        <div class="field">
-          <label for="fname">YOUR NAME</label>
-          <input type="text" id="fname" name="name" placeholder="Jane Smith" required/>
-        </div>
-        <div class="field">
-          <label for="femail">EMAIL ADDRESS</label>
-          <input type="email" id="femail" name="email" placeholder="jane@company.com" required/>
-        </div>
-        <div class="field">
-          <label for="fmsg">HOW CAN WE HELP?</label>
-          <textarea id="fmsg" name="message" rows="5" placeholder="Tell us about your project..." required></textarea>
-        </div>
-        <button type="submit" class="btn-gold btn-gold--submit">Send Message →</button>
-        <div class="form-ok" id="formOk">✓ Message received — we'll reply within 24 hours.</div>
-      </form>
+      <div class="contact-form-wrap reveal" data-delay="100">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-row">
+            <div class="field"><label for="fname">YOUR NAME *</label><input type="text" id="fname" name="name" placeholder="Ravi Kumar" required/></div>
+            <div class="field"><label for="femail">EMAIL ADDRESS *</label><input type="email" id="femail" name="email" placeholder="ravi@company.com" required/></div>
+          </div>
+          <div class="form-row">
+            <div class="field"><label for="fcompany">COMPANY / BRAND</label><input type="text" id="fcompany" name="company" placeholder="Your Company Name"/></div>
+            <div class="field"><label for="fphone">PHONE NUMBER</label><input type="tel" id="fphone" name="phone" placeholder="+91 98765 43210"/></div>
+          </div>
+          <div class="field">
+            <label for="fservice">SERVICE REQUIRED *</label>
+            <select id="fservice" name="service" required>
+              <option value="" disabled selected>Select a service...</option>
+              <optgroup label="Software Development">
+                <option>Custom Web Application</option>
+                <option>ERP / CRM System</option>
+                <option>UI/UX Design</option>
+                <option>API Development & Integration</option>
+                <option>Mobile-First Website</option>
+              </optgroup>
+              <optgroup label="AI & Automation">
+                <option>AI Chatbot / Virtual Assistant</option>
+                <option>AI Agents & RAG Systems</option>
+                <option>Business Process Automation</option>
+                <option>Predictive Analytics Dashboard</option>
+                <option>Document Intelligence / OCR</option>
+              </optgroup>
+              <optgroup label="Digital Marketing">
+                <option>SEO & Content Marketing</option>
+                <option>Google Ads & PPC</option>
+                <option>Social Media Marketing</option>
+                <option>Lead Generation & Funnels</option>
+                <option>Analytics & Performance Reporting</option>
+              </optgroup>
+              <option>Not sure — need advice</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="fbudget">PROJECT BUDGET</label>
+            <select id="fbudget" name="budget">
+              <option value="" disabled selected>Select a range...</option>
+              <option>Under ₹25,000</option>
+              <option>₹25,000 – ₹75,000</option>
+              <option>₹75,000 – ₹2,00,000</option>
+              <option>₹2,00,000 – ₹5,00,000</option>
+              <option>₹5,00,000+</option>
+              <option>Let's discuss</option>
+            </select>
+          </div>
+          <div class="field"><label for="fmsg">TELL US ABOUT YOUR PROJECT *</label><textarea id="fmsg" name="message" rows="5" placeholder="What are you building? What problem does it solve? What's your timeline?..." required></textarea></div>
+          <button type="submit" class="btn btn-primary btn-block btn-lg">
+            <svg viewBox="0 0 24 24" fill="currentColor" style="width:18px;height:18px"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+            Send via WhatsApp →
+          </button>
+          <div class="form-ok" id="formOk">✓ Message received — we'll reply within 24 hours.</div>
+        </form>
+      </div>
     </div>
   </div>
 </section>
+</main>
 
-<!-- ══════════════════════════════
-     FOOTER
-══════════════════════════════ -->
+<!-- ══════════════ FOOTER ══════════════ -->
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
       <div class="footer-brand">
-        <a href="#" class="nav__logo footer-logo"><span class="logo-bracket">[</span>SOFTZEN<span class="logo-bracket">]</span></a>
-        <p>Smart software and AI solutions for businesses that want to grow without the complexity.</p>
+        <a href="#home" class="nav__logo">SoftZen<span class="dot">.</span></a>
+        <p>Building the future with software, AI & digital innovation. Trusted by startups, SMBs, and enterprises worldwide.</p>
+        <span class="footer-founded">EST. 2026 · DHARWAD, INDIA</span>
       </div>
       <div class="footer-cols">
         <div class="fcol">
           <h5>SERVICES</h5>
-          <a href="#services">Web Development</a>
-          <a href="#services">App Development</a>
-          <a href="#services">Custom Software</a>
-          <a href="#services">AI Chatbots</a>
-          <a href="#services">AI Receptionists</a>
-          <a href="#services">AI Agents</a>
-          <a href="#services">AI Automations</a>
+          <a href="#services">Software Development</a>
+          <a href="#services">AI & Automation</a>
           <a href="#services">Digital Marketing</a>
         </div>
         <div class="fcol">
           <h5>COMPANY</h5>
           <a href="#about">About Us</a>
-          <a href="#process">Our Process</a>
-          <a href="#work">Client Stories</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#industries">Industries</a>
           <a href="#contact">Contact</a>
         </div>
         <div class="fcol">
           <h5>CONNECT</h5>
           <a href="#">LinkedIn</a>
-          <a href="#">Twitter / X</a>
           <a href="#">Instagram</a>
+          <a href="#">Twitter / X</a>
           <a href="mailto:hello@softzentech.in">hello@softzentech.in</a>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <code>© 2026 SOFTZEN. ALL RIGHTS RESERVED.</code>
+      <span>© 2026 SoftZen Technologies. All rights reserved. · Founded by Kiran H</span>
       <div class="footer-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
